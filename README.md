@@ -38,10 +38,4 @@ The project was built entirely from scratch without using any external framework
 
 --- 
 
-*Submitted for consideration in Venatus Gaming Society's Web Development Department Recruitment Process*git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/KillerHyena/Venatus.git
-git branch -M main
-git push -u origin main
-git push -u origin main --force
+*Submitted for consideration in Venatus Gaming Society's Web Development Department Recruitment Process*
