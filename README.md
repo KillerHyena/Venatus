@@ -1,155 +1,47 @@
-# Personal Blog Clone - README.md
+# Venatus Gaming Society - Web Development Task
 
-```markdown
-# Personal Blog Clone
+## Project Overview
 
-A responsive personal blog website inspired by Google's Experiments website design, built with pure HTML, CSS, and JavaScript.
+This project was created as part of the recruitment process for Venatus, the premier gaming society at NUST, for Round 2 of the Web Development department selection. The task required cloning the Experiments with Google website while demonstrating strong technical skills in front-end development.
 
-## 🚀 Live Demo
+## Purpose
 
-[Add your live demo link here]
+This clone was developed to showcase:
+- Proficiency in HTML5, CSS3, and vanilla JavaScript
+- Ability to recreate complex layouts and interactions
+- Understanding of responsive design principles
+- Attention to detail in animation implementation
+- Problem-solving skills in replicating advanced hover effects
 
-## 📋 Project Overview
+## Technical Implementation
 
-This project is a personal blog website that replicates the visual design and interactive elements of Google's Experiments website while transforming the content to fit a blogging platform. The site features a modern, card-based layout with smooth animations and hover effects.
+The project faithfully recreates the Experiments with Google website's:
+- Card-based grid layout with sophisticated hover effects
+- Responsive navigation system
+- Smooth animations and transitions
+- Clean, modern aesthetic
+- Cross-device compatibility
 
-## 🛠️ Built With
+While maintaining the original structure and functionality, the content has been adapted to feature gaming-related projects and experiments that would be relevant to Venatus Gaming Society's focus areas.
 
-- **HTML5** - Semantic markup structure
-- **CSS3** - Custom styling with Flexbox and Grid layouts
-- **JavaScript** - Interactive elements and animations
-- **No Frameworks** - Pure vanilla implementation for optimal performance
+## Development Approach
 
-## 📁 Project Structure
-
-```
-experiments-with-google-clone/
-├── index.html                 # Homepage
-├── styles/                    # All CSS files
-│   ├── main.css               # Global styles and CSS variables
-│   ├── components/            # Component-specific styles
-│   │   ├── header.css         # Header styling
-│   │   ├── navigation.css     # Navigation menu
-│   │   ├── cards.css          # Blog post cards
-│   │   ├── collections.css    # Category collections
-│   │   ├── experiments.css    # Individual post styling
-│   │   └── footer.css         # Footer styling
-│   └── utilities/             # Utility classes
-│       ├── animations.css     # Keyframes and transitions
-│       ├── hover-effects.css  # Hover animations
-│       └── responsive.css     # Media queries and responsive design
-├── scripts/                   # JavaScript files
-│   ├── main.js                # Main application logic
-│   ├── hover-effects.js       # Card hover functionality
-│   ├── navigation.js          # Mobile navigation toggle
-│   └── animations.js          # Scroll and viewport animations
-├── images/                    # Image assets
-│   ├── logos/                 # Brand logos
-│   ├── icons/                 UI icons
-│   ├── featured/              # Featured post images
-│   ├── experiments/           # Blog post images
-│   └── backgrounds/           # Background images
-├── pages/                     # Additional pages
-│   ├── collections.html       # Categories page
-│   ├── experiments.html       # All posts page
-│   ├── about.html             # About me page
-│   └── submit.html            # Contact form page
-├── assets/                    # Additional assets
-│   ├── fonts/                 # Custom font files
-│   └── downloads/             # Downloadable resources
-└── README.md                  # Project documentation
-```
-
-## ✨ Features
-
-- **Responsive Design** - Fully responsive across all device sizes
-- **Interactive Cards** - Hover effects reveal additional content on blog posts
-- **Smooth Animations** - CSS and JavaScript-powered animations
-- **Category Filtering** - Filter posts by categories
-- **Search Functionality** - Search through blog posts
-- **Clean Navigation** - Intuitive navigation with mobile support
-
-## 🎨 Design Elements
-
-- Card-based layout inspired by Experiments with Google
-- Clean, minimal aesthetic with careful attention to spacing
-- Consistent color scheme and typography throughout
-- Subtle transitions and hover effects
-- Responsive grid system
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-A modern web browser with JavaScript enabled.
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/personal-blog-clone.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd personal-blog-clone
-   ```
-
-3. Open `index.html` in your browser or use a local server:
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve
-   
-   # Using PHP
-   php -S localhost:8000
-   ```
-
-## 📱 Responsive Breakpoints
-
-- **Mobile**: 0px - 767px
-- **Tablet**: 768px - 1023px
-- **Desktop**: 1024px and above
-
-## 🌐 Browser Support
-
-- Chrome (last 2 versions)
-- Firefox (last 2 versions)
-- Safari (last 2 versions)
-- Edge (last 2 versions)
-
-## 🔧 Customization
-
-To customize this blog for your own content:
-
-1. Update the content in HTML files
-2. Modify color scheme in `styles/main.css`
-3. Replace images in the `images/` directory
-4. Update navigation items in `navigation.js`
-5. Add your own blog posts in the appropriate sections
-
-## 📝 Code Guidelines
-
+This implementation demonstrates:
 - Semantic HTML5 markup
-- BEM naming convention for CSS classes
-- CSS variables for consistent theming
-- Vanilla JavaScript with modern ES6+ features
-- Accessibility considerations throughout
+- CSS Grid and Flexbox for layouts
+- Custom JavaScript for interactive elements
+- Mobile-first responsive design
+- Performance optimization techniques
+- Clean, maintainable code structure
 
-## 🤝 Contributing
+The project was built entirely from scratch without using any external frameworks or libraries, highlighting core web development skills essential for the Venatus Web Development team.
 
-This is a personal project, but suggestions and feedback are welcome. Please open an issue first to discuss any changes.
+--- 
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- Design inspired by [Experiments with Google](https://experiments.withgoogle.com/)
-- Icons from [Font Awesome](https://fontawesome.com/)
-- Google Fonts for typography
-
----
+*Submitted for consideration in Venatus Gaming Society's Web Development Department Recruitment Process*git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/KillerHyena/Venatus.git
+git branch -M main
+git push -u origin main
+git push -u origin main --force
