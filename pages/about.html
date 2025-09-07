@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog | Home</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components/header.css">
+    <link rel="stylesheet" href="styles/components/navigation.css">
+    <link rel="stylesheet" href="styles/components/post-cards.css">
+    <link rel="stylesheet" href="styles/components/category-grid.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/utilities/animations.css">
+    <link rel="stylesheet" href="styles/utilities/hover-effects.css">
+    <link rel="stylesheet" href="styles/utilities/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">My Blog</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Categories ▾</a>
+                        <div class="dropdown-content">
+                            <a href="pages/blog/hobbies.html">Hobbies</a>
+                            <a href="pages/blog/travel.html">Travel</a>
+                            <a href="pages/blog/personal.html">Personal</a>
+                        </div>
+                    </li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to My Personal Blog</h1>
+                <p>Discover stories, tips, and insights from my journey</p>
+            </div>
+        </section>
+
+        <section class="featured-posts">
+            <div class="container">
+                <h2>Featured Posts</h2>
+                <div class="posts-grid">
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="images/blog-posts/featured-1.jpg" alt="Web Development Trends">
+                            <span class="category-badge">Technology</span>
+                        </div>
+                        <div class="post-content">
+                            <h3>Web Development Trends in 2023</h3>
+                            <p class="post-excerpt">Exploring the latest frameworks and tools shaping the future of web development...</p>
+                            <div class="post-meta">
+                                <span class="post-date">March 15, 2023</span>
+                                <span class="read-time">5 min read</span>
+                            </div>
+                        </div>
+                        <div class="post-hover-content">
+                            <p>A deep dive into the emerging technologies that are shaping the future of web development, from WebAssembly to AI-assisted coding.</p>
+                            <a href="pages/post-template.html" class="read-more-btn">Read Full Article</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="images/blog-posts/featured-2.jpg" alt="Japan Travel">
+                            <span class="category-badge">Travel</span>
+                        </div>
+                        <div class="post-content">
+                            <h3>Exploring Hidden Gems in Japan</h3>
+                            <p class="post-excerpt">Beyond Tokyo and Kyoto - discovering the less traveled paths of Japan...</p>
+                            <div class="post-meta">
+                                <span class="post-date">February 28, 2023</span>
+                                <span class="read-time">8 min read</span>
+                            </div>
+                        </div>
+                        <div class="post-hover-content">
+                            <p>Japan offers so much more than its famous cities. Join me as I explore the countryside, small towns, and hidden cultural treasures.</p>
+                            <a href="pages/post-template.html" class="read-more-btn">Read Full Article</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="images/blog-posts/featured-3.jpg" alt="Productivity Tips">
+                            <span class="category-badge">Personal</span>
+                        </div>
+                        <div class="post-content">
+                            <h3>My Productivity System</h3>
+                            <p class="post-excerpt">How I manage my time and stay focused in a world full of distractions...</p>
+                            <div class="post-meta">
+                                <span class="post-date">February 10, 2023</span>
+                                <span class="read-time">6 min read</span>
+                            </div>
+                        </div>
+                        <div class="post-hover-content">
+                            <p>After years of experimentation, I've developed a productivity system that actually works. Here's my approach to managing time and energy.</p>
+                            <a href="pages/post-template.html" class="read-more-btn">Read Full Article</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <h2>Browse by Category</h2>
+                <div class="categories-grid">
+                    <a href="pages/blog/technology.html" class="category-card">
+                        <div class="category-image">
+                            <img src="images/backgrounds/tech-bg.jpg" alt="Technology">
+                        </div>
+                        <div class="category-content">
+                            <h3>Technology</h3>
+                            <p>12 articles</p>
+                        </div>
+                    </a>
+
+                    <a href="pages/blog/travel.html" class="category-card">
+                        <div class="category-image">
+                            <img src="images/backgrounds/travel-bg.jpg" alt="Travel">
+                        </div>
+                        <div class="category-content">
+                            <h3>Travel</h3>
+                            <p>8 articles</p>
+                        </div>
+                    </a>
+
+                    <a href="pages/blog/personal.html" class="category-card">
+                        <div class="category-image">
+                            <img src="images/backgrounds/personal-bg.jpg" alt="Personal">
+                        </div>
+                        <div class="category-content">
+                            <h3>Personal</h3>
+                            <p>6 articles</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About This Blog</h3>
+                    <p>A personal space where I share my thoughts, experiences, and learnings about technology, travel, and personal growth.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/about.html">About</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">Twitter</a>
+                        <a href="#" class="social-icon">Instagram</a>
+                        <a href="#" class="social-icon">LinkedIn</a>
+                        <a href="#" class="social-icon">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 My Personal Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/post-interactions.js"></script>
+</body>
+</html>

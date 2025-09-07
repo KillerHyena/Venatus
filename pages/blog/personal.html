@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Blog - My Thoughts</title>
+  <link rel="stylesheet" href="../../styles/main.css" />
+  <link rel="stylesheet" href="../../styles/components/header.css" />
+  <link rel="stylesheet" href="../../styles/components/navigation.css" />
+  <link rel="stylesheet" href="../../styles/components/post-cards.css" />
+  <link rel="stylesheet" href="../../styles/components/sidebar.css" />
+  <link rel="stylesheet" href="../../styles/components/footer.css" />
+  <link rel="stylesheet" href="../../styles/utilities/responsive.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">
+      <a href="../../index.html">My Blog</a>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="../blog/hobbies.html">Hobbies</a></li>
+        <li><a href="../blog/travel.html">Travel</a></li>
+        <li><a class="active" href="../blog/personal.html">Personal</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="category-hero" style="background-image: url('../../images/backgrounds/personal-bg.jpg');">
+    <div class="overlay">
+      <h1>Personal Stories</h1>
+      <p>Thoughts, reflections, and life updates.</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="content-wrapper">
+    <!-- Blog Grid -->
+    <section class="post-grid">
+      <article class="post-card">
+        <img src="../../images/blog-posts/personal1.jpg" alt="Morning Reflections" />
+        <div class="post-content">
+          <h2><a href="../post-template.html">Morning Reflections</a></h2>
+          <p>A peaceful start to the day with mindful practices that set the tone for productivity...</p>
+          <span class="post-meta">Jan 20, 2025 • 3 min read</span>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <img src="../../images/blog-posts/personal2.jpg" alt="Work-Life Balance" />
+        <div class="post-content">
+          <h2><a href="../post-template.html">Finding Work-Life Balance</a></h2>
+          <p>Balancing career goals with personal happiness isn’t easy. Here’s how I manage it...</p>
+          <span class="post-meta">Feb 10, 2025 • 5 min read</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="widget about-me">
+        <img src="../../images/avatar/me.jpg" alt="Author" />
+        <h3>About Me</h3>
+        <p>Sharing stories, reflections, and personal growth experiences.</p>
+      </div>
+
+      <div class="widget categories">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="technology.html">Technology</a></li>
+          <li><a href="travel.html">Travel</a></li>
+          <li><a class="active" href="personal.html">Personal</a></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="../../scripts/navigation.js"></script>
+  <script src="../../scripts/post-interactions.js"></script>
+</body>
+</html>

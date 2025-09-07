@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Blog - Adventures</title>
+  <link rel="stylesheet" href="../../styles/main.css" />
+  <link rel="stylesheet" href="../../styles/components/header.css" />
+  <link rel="stylesheet" href="../../styles/components/navigation.css" />
+  <link rel="stylesheet" href="../../styles/components/post-cards.css" />
+  <link rel="stylesheet" href="../../styles/components/sidebar.css" />
+  <link rel="stylesheet" href="../../styles/components/footer.css" />
+  <link rel="stylesheet" href="../../styles/utilities/responsive.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">
+      <a href="../../index.html">My Blog</a>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="../blog/hobbies.html">Hobbies</a></li>
+        <li><a class="active" href="../blog/travel.html">Travel</a></li>
+        <li><a href="../blog/personal.html">Personal</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="category-hero" style="background-image: url('../../images/backgrounds/travel-bg.jpg');">
+    <div class="overlay">
+      <h1>Travel Adventures</h1>
+      <p>Exploring the world, one destination at a time.</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="content-wrapper">
+    <!-- Blog Grid -->
+    <section class="post-grid">
+      <article class="post-card">
+        <img src="../../images/blog-posts/travel1.jpg" alt="Mountain Trek" />
+        <div class="post-content">
+          <h2><a href="../post-template.html">Himalayan Trekking Experience</a></h2>
+          <p>An unforgettable journey through breathtaking landscapes and high-altitude trails...</p>
+          <span class="post-meta">Dec 12, 2024 • 6 min read</span>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <img src="../../images/blog-posts/travel2.jpg" alt="Beach Sunset" />
+        <div class="post-content">
+          <h2><a href="../post-template.html">Golden Hour at Bali Beaches</a></h2>
+          <p>Capturing sunsets, local culture, and the vibrant energy of Bali...</p>
+          <span class="post-meta">Jan 5, 2025 • 4 min read</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="widget about-me">
+        <img src="../../images/avatar/me.jpg" alt="Author" />
+        <h3>About Me</h3>
+        <p>Traveler, explorer, and storyteller sharing adventures worldwide.</p>
+      </div>
+
+      <div class="widget categories">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="technology.html">Technology</a></li>
+          <li><a class="active" href="travel.html">Travel</a></li>
+          <li><a href="personal.html">Personal</a></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="../../scripts/navigation.js"></script>
+  <script src="../../scripts/post-interactions.js"></script>
+</body>
+</html>

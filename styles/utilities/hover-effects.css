@@ -1,0 +1,147 @@
+/* Grow effect */
+.hover-grow {
+    transition: var(--transition);
+}
+
+.hover-grow:hover {
+    transform: scale(1.05);
+}
+
+/* Shrink effect */
+.hover-shrink {
+    transition: var(--transition);
+}
+
+.hover-shrink:hover {
+    transform: scale(0.95);
+}
+
+/* Float effect */
+.hover-float {
+    transition: var(--transition);
+}
+
+.hover-float:hover {
+    transform: translateY(-5px);
+}
+
+/* Shadow effects */
+.hover-shadow {
+    transition: var(--transition);
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Color change effects */
+.hover-primary:hover {
+    color: var(--primary-color) !important;
+}
+
+.hover-accent:hover {
+    color: var(--accent-color) !important;
+}
+
+/* Background color change effects */
+.hover-bg-primary:hover {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.hover-bg-accent:hover {
+    background-color: var(--accent-color) !important;
+    color: white !important;
+}
+
+/* Underline effects */
+.hover-underline {
+    position: relative;
+}
+
+.hover-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+.hover-underline:hover::after {
+    width: 100%;
+}
+
+/* Special button hover effects */
+.btn-hover-effect {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-hover-effect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: width 0.3s ease;
+    z-index: -1;
+}
+
+.btn-hover-effect:hover::before {
+    width: 100%;
+}
+
+/* Image overlay effect */
+.image-overlay {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-overlay:hover::after {
+    opacity: 1;
+}
+
+/* Text reveal on hover */
+.text-reveal {
+    position: relative;
+    overflow: hidden;
+}
+
+.text-reveal::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+.text-reveal:hover {
+    color: white;
+}
+
+.text-reveal:hover::after {
+    transform: translateX(0);
+}
